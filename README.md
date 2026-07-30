@@ -1,4 +1,4 @@
-Digital Banking System
+**Digital Banking System**
 
 A backend banking application developed using Java, Spring Boot, Spring Security, JPA (Hibernate), and MySQL. The system allows users to manage bank accounts, perform transactions, and securely access banking services using JWT-based authentication and role-based authorization.
 
