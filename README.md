@@ -2,6 +2,8 @@
 
 A backend banking application developed using Java, Spring Boot, Spring Security, JPA (Hibernate), and MySQL. The system allows users to manage bank accounts, perform transactions, and securely access banking services using JWT-based authentication and role-based authorization.
 
+
+
 Features
 User registration and login with JWT authentication
 
@@ -20,6 +22,8 @@ Soft delete implementation for users and accounts
 Audit logging to track important system activities
 
 RESTful APIs with validation and exception handling
+
+
 
 
 
@@ -43,6 +47,9 @@ Docker
 
 
 
+
+
+
 Main APIs
 
 Authentication
@@ -50,6 +57,9 @@ Authentication
 POST /api/auth/register
 
 POST /api/auth/login
+
+
+
 
 
 
@@ -67,6 +77,8 @@ DELETE /api/accounts/{accountNumber}
 
 
 
+
+
 Transactions
 
 POST /api/transactions/deposit
@@ -76,6 +88,9 @@ POST /api/transactions/withdraw
 POST /api/transactions/transfer
 
 GET /api/transactions/search
+
+
+
 
 
 
@@ -91,6 +106,8 @@ Maven
 
 
 
+
+
 Steps
 
 mvn clean install
@@ -99,9 +116,15 @@ mvn spring-boot:run
 
 
 
+
+
 The application will start on:
 
 http://localhost:8080
+
+
+
+
 
 
 
