@@ -4,7 +4,8 @@ A backend banking application developed using Java, Spring Boot, Spring Security
 
 
 
-Features
+**Features**
+
 User registration and login with JWT authentication
 
 Role-based access control for Customer, Employee, and Admin
@@ -27,7 +28,7 @@ RESTful APIs with validation and exception handling
 
 
 
-Tech Stack
+**Tech Stack**
 
 Java 17
 
@@ -50,7 +51,7 @@ Docker
 
 
 
-Main APIs
+**Main APIs**
 
 Authentication
 
@@ -92,9 +93,7 @@ GET /api/transactions/search
 
 
 
-
-
-Running the Project
+**Running the Project**
 
 
 Prerequisites
@@ -108,7 +107,7 @@ Maven
 
 
 
-Steps
+**Steps**
 
 mvn clean install
 
@@ -128,7 +127,7 @@ http://localhost:8080
 
 
 
-What I Learned :
+**What I Learned :**
 
 Spring Boot application development
 
