@@ -24,6 +24,7 @@ com\banking\system\service\TransactionService.class
 com\banking\system\config\SecurityConfig.class
 com\banking\system\web\controller\AuditLogController.class
 com\banking\system\domain\User.class
+com\banking\system\config\DatabaseSeeder.class
 com\banking\system\web\dto\AccountDto.class
 com\banking\system\web\controller\AccountController.class
 com\banking\system\repository\NotificationRepository.class
