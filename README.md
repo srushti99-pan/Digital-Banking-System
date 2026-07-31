@@ -1,10 +1,10 @@
-**Digital Banking System**
+# **Digital Banking System**
 
 A backend banking application developed using Java, Spring Boot, Spring Security, JPA (Hibernate), and MySQL. The system allows users to manage bank accounts, perform transactions, and securely access banking services using JWT-based authentication and role-based authorization.
 
 
 
-**Features**
+## **Features**
 
 User registration and login with JWT authentication
 
@@ -28,7 +28,7 @@ RESTful APIs with validation and exception handling
 
 
 
-**Tech Stack**
+## **Tech Stack**
 
 Java 17
 
@@ -51,9 +51,9 @@ Docker
 
 
 
-**Main APIs**
+## **Main APIs**
 
-Authentication
+### Authentication
 
 POST /api/auth/register
 
@@ -64,7 +64,7 @@ POST /api/auth/login
 
 
 
-Accounts
+### Accounts
 
 POST /api/accounts
 
@@ -80,7 +80,7 @@ DELETE /api/accounts/{accountNumber}
 
 
 
-Transactions
+### Transactions
 
 POST /api/transactions/deposit
 
@@ -93,10 +93,10 @@ GET /api/transactions/search
 
 
 
-**Running the Project**
+## **Running the Project**
 
 
-Prerequisites
+### Prerequisites
 Java 17+
 
 MySQL
@@ -107,7 +107,7 @@ Maven
 
 
 
-**Steps**
+### **Steps**
 
 mvn clean install
 
@@ -127,7 +127,7 @@ http://localhost:8080
 
 
 
-**What I Learned :**
+## **What I Learned :**
 
 Spring Boot application development
 
